@@ -64,7 +64,7 @@ const AboutSection = () => {
                 Tentang Idin Iskandar
               </h2>
               <p className="text-lg text-text-light leading-relaxed">
-                Saya adalah seorang Full-Stack Web Developer lulusan Universitas Komputer Indonesia (UNIKOM) 
+                Saya adalah seorang Full-Stack Web Developer lulusan (UNIKOM) 
                 dengan passion dalam menciptakan aplikasi web yang modern dan inovatif. Dengan keahlian 
                 di bidang pengembangan frontend dan backend, saya fokus pada pembuatan solusi digital 
                 yang user-friendly dan berkualitas tinggi.
