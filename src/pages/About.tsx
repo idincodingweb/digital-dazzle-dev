@@ -31,7 +31,7 @@ const About = () => {
     },
     {
       title: "Computer Science Student",
-      company: "Universitas Komputer Indonesia (UNIKOM)",
+      company: "Universitas Komputer (UNIKOM)",
       period: "2018 - 2022",
       location: "Bandung, Indonesia", 
       description: "Menyelesaikan pendidikan Sarjana Komputer dengan fokus pada software engineering dan web development. Aktif dalam organisasi dan project-based learning.",
@@ -46,7 +46,7 @@ const About = () => {
   const education = [
     {
       degree: "S1 Sistem Komputer",
-      institution: "Universitas Komputer Indonesia (UNIKOM)",
+      institution: "Universitas (UNIKOM)",
       period: "2018 - 2022",
       gpa: "3.7/4.0",
       description: "Fokus pada Software Engineering dan Web Development. Mengembangkan berbagai project aplikasi web dan mobile selama masa studi."
