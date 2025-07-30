@@ -1,9 +1,11 @@
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import project1 from "@/assets/movies.png";
+import project2 from "@/assets/anime.png";
+import project3 from "@/assets/chatonepro.png";
+import project4 from "@/assets/cryptowise.png";
+import project5 from "@/assets/bisnis.png";
 
 const ProjectsSection = () => {
   const projects = [
@@ -14,7 +16,7 @@ const ProjectsSection = () => {
       image: project1,
       technologies: ["React", "Next.js", "Tailwind CSS", "API Integration", "Vercel"],
       liveUrl: "https://imovies-v3.vercel.app/",
-      githubUrl: "https://github.com/idiniskandar",
+      githubUrl: "https://github.com/idincodingweb",
       featured: true
     },
     {
@@ -24,7 +26,7 @@ const ProjectsSection = () => {
       image: project2,
       technologies: ["React", "Next.js", "TypeScript", "Anime API", "Responsive Design"],
       liveUrl: "https://anime-stream-drab-five.vercel.app/",
-      githubUrl: "https://github.com/idiniskandar",
+      githubUrl: "https://github.com/idincodingweb",
       featured: true
     },
     {
@@ -34,27 +36,27 @@ const ProjectsSection = () => {
       image: project3,
       technologies: ["React", "OpenAI API", "TypeScript", "Real-time Chat", "AI Integration"],
       liveUrl: "https://chat-ai-pro-one.vercel.app/",
-      githubUrl: "https://github.com/idiniskandar",
+      githubUrl: "https://github.com/idincodingweb",
       featured: true
     },
     {
       id: 4,
       title: "CryptoWise ID - Edukasi Kripto",
       description: "Platform edukasi cryptocurrency dengan informasi terkini, analisis market, dan panduan investasi untuk pemula hingga advanced.",
-      image: project1,
+      image: project4,
       technologies: ["React", "Chart.js", "Crypto API", "Educational Content", "Market Data"],
       liveUrl: "https://crypto-wise-id.vercel.app/",
-      githubUrl: "https://github.com/idiniskandar",
+      githubUrl: "https://github.com/idincodingweb",
       featured: false
     },
     {
       id: 5,
       title: "Digital Store - Toko Digital Modern",
       description: "E-commerce platform untuk produk digital dengan sistem pembayaran terintegrasi dan manajemen inventory yang efisien.",
-      image: project2,
+      image: project5,
       technologies: ["React", "E-commerce", "Payment Gateway", "Product Management", "Modern UI"],
       liveUrl: "https://produk-digital-phi.vercel.app/",
-      githubUrl: "https://github.com/idiniskandar",
+      githubUrl: "https://github.com/idincodingweb",
       featured: false
     }
   ];
