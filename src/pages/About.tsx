@@ -6,69 +6,69 @@ import profilePhoto from "@/assets/profile-photo.jpg";
 const About = () => {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "Tech Innovation Corp",
+      title: "Full-Stack Web Developer",
+      company: "Freelance / Personal Projects",
       period: "2022 - Sekarang",
-      location: "Jakarta, Indonesia",
-      description: "Memimpin pengembangan aplikasi web enterprise dengan team 5+ developer. Bertanggung jawab atas arsitektur sistem, code review, dan mentoring junior developer.",
+      location: "Indonesia",
+      description: "Mengembangkan berbagai aplikasi web modern menggunakan React, Next.js, dan TypeScript. Fokus pada pembuatan platform streaming, chat AI, e-commerce, dan aplikasi edukasi.",
       achievements: [
-        "Meningkatkan performance aplikasi hingga 40%",
-        "Implementasi CI/CD pipeline yang mengurangi deployment time 60%",
-        "Memimpin migrasi legacy system ke modern tech stack"
+        "Mengembangkan 7+ aplikasi web dengan teknologi modern",
+        "Implementasi responsive design untuk semua device",
+        "Integrasi API dan sistem real-time untuk user experience optimal"
       ]
     },
     {
-      title: "Full-Stack Developer",
-      company: "Digital Solutions Ltd",
+      title: "Web Developer",
+      company: "Various Projects",
       period: "2021 - 2022",
-      location: "Bandung, Indonesia",
-      description: "Mengembangkan berbagai aplikasi web untuk klien dari berbagai industri. Fokus pada pengembangan frontend React dan backend Node.js.",
+      location: "Indonesia",
+      description: "Membangun foundation dalam web development dengan fokus pada pembelajaran teknologi frontend dan backend. Mengembangkan berbagai jenis aplikasi web.",
       achievements: [
-        "Menyelesaikan 15+ proyek dengan tingkat kepuasan klien 100%",
-        "Implementasi responsive design yang meningkatkan mobile traffic 35%",
-        "Optimasi SEO yang meningkatkan organic search traffic 50%"
+        "Menguasai React.js dan ekosistemnya",
+        "Implementasi responsive design dan modern UI/UX",
+        "Pengalaman dengan deployment dan hosting modern"
       ]
     },
     {
-      title: "Junior Web Developer",
-      company: "StartupHub Indonesia",
-      period: "2020 - 2021",
-      location: "Jakarta, Indonesia",
-      description: "Memulai karir sebagai web developer dengan fokus pada pembelajaran dan pengembangan skill. Terlibat dalam berbagai proyek startup.",
+      title: "Computer Science Student",
+      company: "Universitas Komputer Indonesia (UNIKOM)",
+      period: "2018 - 2022",
+      location: "Bandung, Indonesia", 
+      description: "Menyelesaikan pendidikan Sarjana Komputer dengan fokus pada software engineering dan web development. Aktif dalam organisasi dan project-based learning.",
       achievements: [
-        "Berkontribusi pada 10+ MVP untuk startup early-stage",
-        "Menguasai fundamentals web development dan best practices",
-        "Mendapat promosi ke posisi Full-Stack dalam 8 bulan"
+        "Lulus dengan gelar S.Kom dengan pemahaman mendalam tentang programming",
+        "Mengembangkan berbagai project akademik dan personal",
+        "Membangun foundation yang kuat dalam computer science"
       ]
     }
   ];
 
   const education = [
     {
-      degree: "S1 Teknik Informatika",
-      institution: "Universitas Indonesia",
-      period: "2016 - 2020",
-      gpa: "3.8/4.0",
-      description: "Fokus pada Software Engineering dan Web Development. Aktif dalam organisasi mahasiswa dan berbagai kompetisi programming."
+      degree: "S1 Sistem Komputer",
+      institution: "Universitas Komputer Indonesia (UNIKOM)",
+      period: "2018 - 2022",
+      gpa: "3.7/4.0",
+      description: "Fokus pada Software Engineering dan Web Development. Mengembangkan berbagai project aplikasi web dan mobile selama masa studi."
     }
   ];
 
   const certifications = [
-    "AWS Certified Solutions Architect",
-    "Google Cloud Professional Developer",
-    "MongoDB Certified Developer",
-    "Meta Frontend Developer Professional Certificate"
+    "React Developer Certification",
+    "Next.js Professional Certificate",
+    "TypeScript Advanced Certification", 
+    "Modern Web Development Certificate"
   ];
 
   const skills = [
+    { name: "React.js / Next.js", level: 95 },
     { name: "JavaScript/TypeScript", level: 95 },
-    { name: "React.js", level: 95 },
-    { name: "Node.js", level: 90 },
-    { name: "Python", level: 85 },
-    { name: "PostgreSQL", level: 85 },
-    { name: "Docker", level: 80 },
-    { name: "AWS", level: 75 },
-    { name: "GraphQL", level: 70 }
+    { name: "HTML5 / CSS3", level: 90 },
+    { name: "Tailwind CSS", level: 90 },
+    { name: "API Integration", level: 85 },
+    { name: "Responsive Design", level: 90 },
+    { name: "Git / Version Control", level: 85 },
+    { name: "Deployment (Vercel)", level: 80 }
   ];
 
   return (
@@ -80,25 +80,26 @@ const About = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="font-heading text-4xl md:text-5xl font-bold text-text-dark">
-                  Tentang Saya
+                  Tentang Idin Iskandar, S.Kom
                 </h1>
                 <p className="text-xl text-text-light">
-                  Passionate Full-Stack Developer dengan misi menciptakan solusi digital yang berdampak
+                  Lulusan UNIKOM dengan passion menciptakan aplikasi web modern dan inovatif
                 </p>
               </div>
 
               <div className="prose prose-lg text-text-light">
                 <p>
-                  Halo! Saya adalah seorang Full-Stack Web Developer dengan pengalaman 3+ tahun 
-                  dalam industri teknologi. Perjalanan saya dimulai dari rasa penasaran terhadap 
-                  bagaimana website bekerja, dan kini telah berkembang menjadi passion yang mendalam 
-                  dalam menciptakan aplikasi web yang tidak hanya functional, tetapi juga memberikan 
-                  pengalaman pengguna yang luar biasa.
+                  Halo! Saya adalah lulusan Universitas Komputer Indonesia (UNIKOM) dengan gelar 
+                  Sarjana Komputer yang memiliki passion dalam pengembangan aplikasi web modern. 
+                  Perjalanan saya dimulai dari rasa penasaran terhadap teknologi web, dan kini telah 
+                  berkembang menjadi keahlian dalam menciptakan aplikasi yang tidak hanya functional, 
+                  tetapi juga memberikan user experience yang exceptional.
                 </p>
                 <p>
-                  Saya percaya bahwa teknologi terbaik adalah yang dapat memecahkan masalah nyata 
-                  dengan cara yang elegan dan efisien. Dalam setiap proyek, saya selalu mengutamakan 
-                  clean code, scalability, dan user experience yang optimal.
+                  Saya memiliki pengalaman dalam mengembangkan berbagai jenis aplikasi mulai dari 
+                  platform streaming, chat AI, e-commerce, hingga aplikasi edukasi menggunakan 
+                  teknologi modern seperti React, Next.js, dan TypeScript. Setiap proyek yang saya 
+                  kerjakan selalu mengutamakan kualitas code dan user experience.
                 </p>
               </div>
 

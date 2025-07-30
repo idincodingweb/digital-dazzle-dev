@@ -13,15 +13,15 @@ const HeroSection = () => {
               <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-text-dark leading-tight">
                 Halo, Saya{" "}
                 <span className="text-transparent bg-gradient-primary bg-clip-text">
-                  Nama Lengkap Anda
+                  Idin Iskandar, S.Kom
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-text-light font-medium">
-                Full-Stack Web Developer
+                Full-Stack Web Developer | Lulusan UNIKOM
               </p>
               <p className="text-lg text-text-light max-w-lg">
-                Membangun aplikasi web modern, skalabel & interaktif dengan teknologi terkini. 
-                Berfokus pada user experience yang exceptional dan performance yang optimal.
+                Membangun aplikasi web modern dengan React, Next.js, dan TypeScript. 
+                Berfokus pada user experience yang exceptional dan teknologi terdepan.
               </p>
             </div>
 

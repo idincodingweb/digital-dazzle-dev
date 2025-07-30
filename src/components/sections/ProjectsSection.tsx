@@ -9,32 +9,52 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "Dashboard Analytics Modern",
-      description: "Platform analytics komprehensif dengan visualisasi data real-time, dashboard interaktif, dan reporting otomatis untuk business intelligence.",
+      title: "iMovies - Platform Streaming Film",
+      description: "Platform streaming film modern dengan fitur pencarian canggih, rating sistem, dan interface yang responsif untuk pengalaman menonton yang optimal.",
       image: project1,
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Chart.js"],
-      liveUrl: "https://demo-project-1.com",
-      githubUrl: "https://github.com/username/project-1",
+      technologies: ["React", "Next.js", "Tailwind CSS", "API Integration", "Vercel"],
+      liveUrl: "https://imovies-v3.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
       featured: true
     },
     {
       id: 2,
-      title: "E-Commerce Mobile App",
-      description: "Aplikasi e-commerce mobile-first dengan fitur pembayaran terintegrasi, real-time inventory, dan user experience yang optimal.",
+      title: "Anime Stream - Platform Nonton Anime",
+      description: "Platform streaming anime dengan koleksi lengkap, episode tracking, dan fitur bookmark untuk para penggemar anime.",
       image: project2,
-      technologies: ["React Native", "Redux", "Express.js", "MongoDB", "Stripe API"],
-      liveUrl: "https://demo-project-2.com",
-      githubUrl: "https://github.com/username/project-2",
+      technologies: ["React", "Next.js", "TypeScript", "Anime API", "Responsive Design"],
+      liveUrl: "https://anime-stream-drab-five.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
       featured: true
     },
     {
       id: 3,
-      title: "Task Management System",
-      description: "Sistem manajemen tugas kolaboratif dengan fitur kanban board, real-time collaboration, dan integrasi kalendar.",
+      title: "Chat AI Pro - Asisten AI Cerdas",
+      description: "Aplikasi chat AI yang powerful dengan interface modern, riwayat percakapan, dan response yang cepat untuk berbagai kebutuhan.",
       image: project3,
-      technologies: ["Vue.js", "Socket.io", "Django", "Redis", "Docker"],
-      liveUrl: "https://demo-project-3.com",
-      githubUrl: "https://github.com/username/project-3",
+      technologies: ["React", "OpenAI API", "TypeScript", "Real-time Chat", "AI Integration"],
+      liveUrl: "https://chat-ai-pro-one.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
+      featured: true
+    },
+    {
+      id: 4,
+      title: "CryptoWise ID - Edukasi Kripto",
+      description: "Platform edukasi cryptocurrency dengan informasi terkini, analisis market, dan panduan investasi untuk pemula hingga advanced.",
+      image: project1,
+      technologies: ["React", "Chart.js", "Crypto API", "Educational Content", "Market Data"],
+      liveUrl: "https://crypto-wise-id.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
+      featured: false
+    },
+    {
+      id: 5,
+      title: "Digital Store - Toko Digital Modern",
+      description: "E-commerce platform untuk produk digital dengan sistem pembayaran terintegrasi dan manajemen inventory yang efisien.",
+      image: project2,
+      technologies: ["React", "E-commerce", "Payment Gateway", "Product Management", "Modern UI"],
+      liveUrl: "https://produk-digital-phi.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
       featured: false
     }
   ];

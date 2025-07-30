@@ -61,19 +61,19 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-text-dark">
-                Tentang Saya
+                Tentang Idin Iskandar
               </h2>
               <p className="text-lg text-text-light leading-relaxed">
-                Saya adalah seorang Full-Stack Web Developer dengan passion dalam menciptakan 
-                solusi digital yang inovatif dan user-friendly. Dengan pengalaman lebih dari 3 tahun 
-                di industri teknologi, saya telah membantu berbagai klien dari startup hingga 
-                perusahaan besar dalam merealisasikan visi digital mereka.
+                Saya adalah seorang Full-Stack Web Developer lulusan Universitas Komputer Indonesia (UNIKOM) 
+                dengan passion dalam menciptakan aplikasi web yang modern dan inovatif. Dengan keahlian 
+                di bidang pengembangan frontend dan backend, saya fokus pada pembuatan solusi digital 
+                yang user-friendly dan berkualitas tinggi.
               </p>
               <p className="text-text-light leading-relaxed">
-                Keahlian saya mencakup pengembangan frontend dengan React dan Vue.js, 
-                backend development dengan Node.js dan Python, serta database management. 
-                Saya selalu mengutamakan clean code, performance optimization, dan user experience 
-                yang exceptional dalam setiap proyek yang saya kerjakan.
+                Keahlian saya mencakup pengembangan aplikasi dengan React, Next.js, TypeScript, 
+                integrasi API, dan deployment modern. Saya telah mengembangkan berbagai jenis aplikasi 
+                mulai dari platform streaming, chat AI, e-commerce, hingga aplikasi edukasi. 
+                Setiap proyek yang saya kerjakan selalu mengutamakan kualitas code dan user experience.
               </p>
             </div>
 

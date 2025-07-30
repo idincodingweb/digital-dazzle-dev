@@ -14,93 +14,108 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Dashboard Analytics Modern",
-      description: "Platform analytics komprehensif dengan visualisasi data real-time, dashboard interaktif, dan reporting otomatis untuk business intelligence. Dibangun dengan arsitektur microservices dan optimasi untuk handling big data.",
-      longDescription: "Aplikasi ini merupakan solusi end-to-end untuk business intelligence yang memungkinkan perusahaan untuk memvisualisasikan data mereka secara real-time. Fitur utama meliputi custom dashboard builder, advanced filtering, export ke berbagai format, dan notification system untuk anomaly detection.",
+      title: "iMovies - Platform Streaming Film",
+      description: "Platform streaming film modern dengan fitur pencarian canggih, rating sistem, dan interface yang responsif untuk pengalaman menonton yang optimal. Dilengkapi dengan sistem rekomendasi dan catalog yang lengkap.",
+      longDescription: "iMovies adalah platform streaming film yang dibangun dengan teknologi modern untuk memberikan pengalaman menonton terbaik. Aplikasi ini menyediakan koleksi film terlengkap dengan fitur pencarian advanced, sistem rating, dan rekomendasi personal. Interface yang responsive memastikan pengalaman yang konsisten di semua perangkat.",
       image: project1,
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Chart.js", "Docker", "AWS"],
+      technologies: ["React", "Next.js", "Tailwind CSS", "Movie API", "Vercel", "Responsive Design"],
       category: "Web Application",
-      liveUrl: "https://demo-project-1.com",
-      githubUrl: "https://github.com/username/project-1",
+      liveUrl: "https://imovies-v3.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
       featured: true,
       status: "Completed",
-      duration: "4 months",
-      client: "Tech Corp Enterprise"
+      duration: "2 months",
+      client: "Personal Project"
     },
     {
       id: 2,
-      title: "E-Commerce Mobile App",
-      description: "Aplikasi e-commerce mobile-first dengan fitur pembayaran terintegrasi, real-time inventory, dan user experience yang optimal. Mendukung multiple payment gateways dan system loyalty program.",
-      longDescription: "Aplikasi mobile commerce yang dirancang khusus untuk memberikan pengalaman berbelanja yang seamless. Terintegrasi dengan sistem inventory real-time, multiple payment options, push notifications, dan fitur social commerce untuk meningkatkan engagement.",
+      title: "Anime Stream - Platform Nonton Anime",
+      description: "Platform streaming anime dengan koleksi lengkap, episode tracking, dan fitur bookmark untuk para penggemar anime. Menyediakan pengalaman menonton yang immersive dengan kualitas video terbaik.",
+      longDescription: "Anime Stream adalah platform dedicated untuk para penggemar anime dengan koleksi series terlengkap. Fitur unggulan meliputi episode tracking, bookmark favorites, search by genre, dan streaming quality options. UI/UX dirancang khusus untuk memberikan pengalaman menonton anime yang optimal.",
       image: project2,
-      technologies: ["React Native", "Redux", "Express.js", "MongoDB", "Stripe API", "Firebase"],
-      category: "Mobile App",
-      liveUrl: "https://demo-project-2.com",
-      githubUrl: "https://github.com/username/project-2",
+      technologies: ["React", "Next.js", "TypeScript", "Anime API", "Video Player", "PWA"],
+      category: "Web Application",
+      liveUrl: "https://anime-stream-drab-five.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
       featured: true,
       status: "Completed",
-      duration: "6 months",
-      client: "RetailMax Indonesia"
+      duration: "3 months",
+      client: "Personal Project"
     },
     {
       id: 3,
-      title: "Task Management System",
-      description: "Sistem manajemen tugas kolaboratif dengan fitur kanban board, real-time collaboration, dan integrasi kalendar. Mendukung team workspace dan project timeline management.",
-      longDescription: "Platform kolaborasi team yang memungkinkan management project yang efisien. Dilengkapi dengan kanban board yang customizable, time tracking, file sharing, comment system, dan integration dengan popular tools seperti Slack dan Google Workspace.",
+      title: "Chat AI Pro - Asisten AI Cerdas",
+      description: "Aplikasi chat AI yang powerful dengan interface modern, riwayat percakapan, dan response yang cepat untuk berbagai kebutuhan. Terintegrasi dengan AI model terdepan untuk conversation yang natural.",
+      longDescription: "Chat AI Pro adalah aplikasi conversational AI yang dirancang untuk memberikan assistance intelligent dalam berbagai topik. Dilengkapi dengan memory conversation, response streaming, dan interface yang user-friendly. Aplikasi ini menggunakan teknologi AI terbaru untuk memberikan jawaban yang akurat dan kontekstual.",
       image: project3,
-      technologies: ["Vue.js", "Socket.io", "Django", "Redis", "Docker", "PostgreSQL"],
+      technologies: ["React", "OpenAI API", "TypeScript", "Real-time Chat", "Stream Response", "Context Memory"],
       category: "Web Application",
-      liveUrl: "https://demo-project-3.com",
-      githubUrl: "https://github.com/username/project-3",
-      featured: false,
+      liveUrl: "https://chat-ai-pro-one.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
+      featured: true,
       status: "Completed",
-      duration: "3 months",
-      client: "ProductivityPro"
+      duration: "2 months",
+      client: "Personal Project"
     },
     {
       id: 4,
-      title: "Social Media Dashboard",
-      description: "Dashboard media sosial untuk manajemen multiple accounts dengan fitur scheduling posts, analytics, dan content management. Terintegrasi dengan Facebook, Instagram, dan Twitter APIs.",
-      longDescription: "Tool manajemen media sosial all-in-one yang memungkinkan businesses untuk mengelola presence mereka di multiple platform. Features termasuk content calendar, automated posting, engagement analytics, dan competitor analysis.",
+      title: "CryptoWise ID - Edukasi Kripto",
+      description: "Platform edukasi cryptocurrency dengan informasi terkini, analisis market, dan panduan investasi untuk pemula hingga advanced. Menyediakan tools dan resources lengkap untuk crypto learning.",
+      longDescription: "CryptoWise ID adalah platform edukasi comprehensive untuk cryptocurrency dan blockchain technology. Menyediakan artikel edukatif, market analysis, price tracking, dan panduan investasi yang mudah dipahami. Target audience dari pemula yang ingin belajar crypto hingga investor experienced.",
       image: project1,
-      technologies: ["React", "Node.js", "MongoDB", "Social Media APIs", "Tailwind CSS"],
+      technologies: ["React", "Chart.js", "Crypto API", "Content Management", "Market Data", "Educational Tools"],
       category: "Web Application",
-      liveUrl: "https://demo-project-4.com",
-      githubUrl: "https://github.com/username/project-4",
+      liveUrl: "https://crypto-wise-id.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
       featured: false,
-      status: "In Progress",
-      duration: "2 months",
-      client: "SocialBuzz Agency"
+      status: "Completed",
+      duration: "3 months",
+      client: "Personal Project"
     },
     {
       id: 5,
-      title: "Learning Management System",
-      description: "Platform e-learning dengan fitur course management, video streaming, quiz system, dan progress tracking. Mendukung live sessions dan interactive content.",
-      longDescription: "LMS yang comprehensive untuk institusi pendidikan dan corporate training. Dilengkapi dengan video conferencing integration, assessment tools, gradebook, discussion forums, dan mobile app untuk student access.",
+      title: "Digital Store - Toko Digital Modern",
+      description: "E-commerce platform untuk produk digital dengan sistem pembayaran terintegrasi dan manajemen inventory yang efisien. Mendukung berbagai jenis produk digital dan digital downloads.",
+      longDescription: "Digital Store adalah e-commerce platform yang khusus dirancang untuk penjualan produk digital. Fitur unggulan meliputi instant download system, secure payment gateway, product catalog management, dan customer dashboard. Platform ini optimized untuk digital products seperti ebooks, software, courses, dan digital assets lainnya.",
       image: project2,
-      technologies: ["React", "Django", "PostgreSQL", "WebRTC", "AWS S3", "Docker"],
+      technologies: ["React", "E-commerce Framework", "Payment Gateway", "Download System", "Product Management", "User Dashboard"],
       category: "Web Application",
-      liveUrl: "https://demo-project-5.com",
-      githubUrl: "https://github.com/username/project-5",
-      featured: false,
-      status: "Completed",
-      duration: "5 months",
-      client: "EduTech Solutions"
-    },
-    {
-      id: 6,
-      title: "Restaurant POS System",
-      description: "Sistem Point of Sale untuk restoran dengan fitur order management, inventory tracking, dan reporting. Terintegrasi dengan kitchen display dan payment systems.",
-      longDescription: "Complete POS solution untuk restaurant operations. Features meliputi table management, menu customization, kitchen workflow optimization, staff management, dan comprehensive reporting untuk business insights.",
-      image: project3,
-      technologies: ["Flutter", "Firebase", "Node.js", "Stripe", "PWA"],
-      category: "Mobile App",
-      liveUrl: "https://demo-project-6.com",
-      githubUrl: "https://github.com/username/project-6",
+      liveUrl: "https://produk-digital-phi.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
       featured: false,
       status: "Completed",
       duration: "4 months",
-      client: "RestaurantTech Co"
+      client: "Personal Project"
+    },
+    {
+      id: 6,
+      title: "Creative Business Portfolio",
+      description: "Portfolio website untuk creative business dengan showcase project yang menarik, client testimonials, dan service presentation yang professional. Dirancang untuk meningkatkan brand presence.",
+      longDescription: "Creative Business Portfolio adalah website showcase yang dirancang untuk creative agencies dan freelancers. Menampilkan portfolio projects dengan visual yang stunning, client testimonials, service offerings, dan contact integration. Website ini optimized untuk conversion dan brand building.",
+      image: project3,
+      technologies: ["React", "Portfolio Design", "Animation", "SEO Optimized", "Contact Forms", "Gallery System"],
+      category: "Web Application",
+      liveUrl: "https://creative-business.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
+      featured: false,
+      status: "Completed",
+      duration: "2 months",
+      client: "Creative Agency"
+    },
+    {
+      id: 7,
+      title: "Anime Story World",
+      description: "Platform untuk anime storytelling dan fan fiction dengan community features, story sharing, dan interactive reading experience. Memberikan space untuk kreativitas para anime fans.",
+      longDescription: "Anime Story World adalah platform community-driven untuk anime fans yang ingin berbagi cerita dan fan fiction. Dilengkapi dengan story editor, reading interface yang comfortable, community interaction features, dan story categorization. Platform ini mendukung kreativitas dan kolaborasi antar anime enthusiasts.",
+      image: project1,
+      technologies: ["React", "Story Editor", "Community Features", "User Authentication", "Content Management", "Social Interaction"],
+      category: "Web Application",
+      liveUrl: "https://asw-psi.vercel.app/",
+      githubUrl: "https://github.com/idiniskandar",
+      featured: false,
+      status: "Completed",
+      duration: "3 months",
+      client: "Anime Community"
     }
   ];
 
@@ -122,11 +137,11 @@ const Projects = () => {
       <section className="py-20 bg-gradient-hero">
         <div className="container-custom text-center">
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-text-dark mb-6">
-            Portfolio Proyek
+            Portfolio Proyek Idin Iskandar
           </h1>
           <p className="text-xl text-text-light max-w-3xl mx-auto mb-8">
-            Koleksi proyek yang telah saya kembangkan dengan berbagai teknologi modern. 
-            Setiap proyek mencerminkan dedikasi untuk kualitas, inovasi, dan user experience yang exceptional.
+            Koleksi aplikasi web yang telah saya kembangkan menggunakan teknologi modern seperti React, Next.js, dan TypeScript. 
+            Setiap proyek menunjukkan kemampuan full-stack development dan fokus pada user experience yang exceptional.
           </p>
           
           {/* Stats */}

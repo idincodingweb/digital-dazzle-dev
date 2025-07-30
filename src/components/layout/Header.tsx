@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +23,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="font-heading font-bold text-xl text-primary">
-            Nama Lengkap Anda
+            Idin Iskandar
           </Link>
 
           {/* Desktop Navigation */}
@@ -40,13 +41,17 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Button variant="hero" size="sm" asChild>
-              <Link to="/contact">Hubungi Saya</Link>
-            </Button>
+            <div className="flex items-center space-x-3">
+              <ThemeToggle />
+              <Button variant="hero" size="sm" asChild>
+                <Link to="/contact">Hubungi Saya</Link>
+              </Button>
+            </div>
           </nav>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center space-x-2">
+            <ThemeToggle />
             <Button
               variant="ghost"
               size="icon"
