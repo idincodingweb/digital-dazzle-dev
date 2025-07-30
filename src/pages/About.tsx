@@ -1,7 +1,7 @@
 import { Calendar, MapPin, Award, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import profilePhoto from "@/assets/idin.jpg";
+import profilePhoto from "@/assets/idinn.jpg";
 
 const About = () => {
   const experiences = [
