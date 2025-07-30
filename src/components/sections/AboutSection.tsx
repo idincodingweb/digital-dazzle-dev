@@ -1,6 +1,6 @@
 import { ArrowRight, Award, Coffee, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profilePhoto from "@/assets/idin.jpg";
+import profilePhoto from "@/assets/idinn.jpg";
 
 const AboutSection = () => {
   const highlights = [
