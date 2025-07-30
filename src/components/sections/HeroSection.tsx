@@ -1,6 +1,6 @@
 import { ArrowRight, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/idin.jpg";
 
 const HeroSection = () => {
   return (
@@ -17,7 +17,7 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-text-light font-medium">
-                Full-Stack Web Developer | Lulusan UNIKOM
+                Full-Stack Web Developer | Study UNIKOM
               </p>
               <p className="text-lg text-text-light max-w-lg">
                 Membangun aplikasi web modern dengan React, Next.js, dan TypeScript. 
